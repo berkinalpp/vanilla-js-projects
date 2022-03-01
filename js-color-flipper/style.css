@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  text-align: center;
+  position: relative;
+  top: 10rem;
+}
+.showInfo {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+  width: 25%;
+  background-color: #001219;
+  font-weight: bold;
+  font-size: 30px;
+  color: #e5e5e5;
+  border-radius: 0.5rem;
+}
+.changeBtn {
+  padding: 1.5rem;
+  width: 40%;
+  background-color: #041c32;
+  color: #ecb365;
+  border: 1px solid #04293a;
+  border-radius: 1rem;
+  font-size: 3rem;
+  cursor: pointer;
+  margin-top: 2rem;
+  transition: all 0.5s;
+}
+.changeBtn:hover {
+  background-color: #064663;
+}
