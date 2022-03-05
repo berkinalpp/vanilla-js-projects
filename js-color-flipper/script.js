@@ -1,4 +1,3 @@
-const showInfoDOM = document.query;
 const colorInfoDOM = document.querySelector(".colorInfo");
 const changeBtnDOM = document.querySelector(".changeBtn");
 const body = document.getElementsByTagName("body");
